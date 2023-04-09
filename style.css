@@ -2,6 +2,8 @@ img {
     width: 30%;
     filter: grayscale(1);
     margin: calc(10%/6);
+    transition: all 0.5s;
+    
     
     
 }
@@ -11,9 +13,13 @@ img {
     
 }
 
-
 img:hover {
+    
     filter: none; 
+    transform: translateY(-0.5em);
+    
+    box-shadow: 0 1em 1em -0.5em #9a8c98;
+    
 }
 
 nav {
