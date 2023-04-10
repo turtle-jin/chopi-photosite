@@ -1,10 +1,25 @@
-img {
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2.5em;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+    
+
+main img {
     width: 30%;
     filter: grayscale(1);
-    margin: calc(10%/6);
-    transition: all 0.5s;
-    
-    
+    /* margin: calc(10%/6); */
+    transition: all 0.5s;    
     
 }
 
@@ -23,11 +38,14 @@ img:hover {
 }
 
 nav {
+    display: flex;
+    
+    flex:1;
     text-transform: uppercase;
     border-bottom: 2px solid #9a8c98;
-    width: 30%;
-    margin-left: calc(10%/6);
-    padding: 20px 0;
+    /* width: 30%; */
+    /* margin-left: calc(10%/6); */
+    /* padding: 20px 0; */
     font-family: 'Raleway Dots', cursive;
     font-weight: bolder;
     font-size: 1.7em;
